@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Workout4Me.BlankPage6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Workout4Me"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas>
+            <TextBlock x:Name="enterUsername" Height="43" Canvas.Left="63" TextWrapping="Wrap" Text="Enter Username" Canvas.Top="44" Width="287"/>
+            <TextBlock x:Name="enterPassword" Height="43" Canvas.Left="63" TextWrapping="Wrap" Text="Enter Password" Canvas.Top="92" Width="287"/>
+            <RadioButton x:Name="rememberMe" Content="Save my info for next time" HorizontalAlignment="Stretch" Height="31" Canvas.Left="63" Canvas.Top="140" VerticalAlignment="Stretch" Width="202"/>
+            <Grid Height="43" Canvas.Left="63" Canvas.Top="44" Width="287" BorderBrush="Black" BorderThickness="2"/>
+            <Grid Height="43" Canvas.Left="63" Canvas.Top="92" Width="287" BorderBrush="Black" BorderThickness="2"/>
+        </Canvas>
+
+    </Grid>
+</Page>
