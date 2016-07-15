@@ -113,6 +113,9 @@
     <Compile Include="2signIn.xaml.cs">
       <DependentUpon>2signIn.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MoreOptions.xaml.cs">
+      <DependentUpon>MoreOptions.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -160,6 +163,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="2signIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MoreOptions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

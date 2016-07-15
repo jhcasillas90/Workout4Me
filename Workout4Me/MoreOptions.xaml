@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Workout4Me.BlankPage7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Workout4Me"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas>
+            <Slider x:Name="intensitySlider" Height="42" Canvas.Left="10" Canvas.Top="77" Width="340"/>
+            <Slider x:Name="experienceSlider" Height="42" Canvas.Left="10" Canvas.Top="425" Width="340" Maximum="5" Minimum="1"/>
+            <TextBox x:Name="textBox" Height="69" Canvas.Left="10" TextWrapping="Wrap" Text="Desired Intensity of Workout (ranges on a scale of 1-5, 1 using a low heart rate, while 5 is meant to keep the heartrate high):" Canvas.Top="10" Width="340"/>
+            <TextBox x:Name="textBox1" Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="Which days do you typically workout a week?" Canvas.Top="124" Width="340"/>
+            <TextBox x:Name="textBox2" Height="74" Canvas.Left="10" TextWrapping="Wrap" Text="How would you rate your experience within the realm of exercising on a 1-5 scale (1 is this is the first time, 5 being very advanced)? " Canvas.Top="353" Width="340"/>
+            <RadioButton x:Name="monday" Content="Monday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="170" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="tuesday" Content="Tuesday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="200" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="wednesday" Content="Wednesday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="230" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="thursday" Content="Thursday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="260" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="friday" Content="Friday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="290" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="saturday" Content="Saturday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="130" Canvas.Top="200" VerticalAlignment="Stretch" Width="72"/>
+            <RadioButton x:Name="sunday" Content="Sunday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="130" Canvas.Top="235" VerticalAlignment="Stretch" Width="72"/>
+        </Canvas>
+
+    </Grid>
+</Page>
