@@ -21,6 +21,8 @@
             <RadioButton x:Name="friday" Content="Friday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="10" Canvas.Top="290" VerticalAlignment="Stretch" Width="72"/>
             <RadioButton x:Name="saturday" Content="Saturday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="130" Canvas.Top="200" VerticalAlignment="Stretch" Width="72"/>
             <RadioButton x:Name="sunday" Content="Sunday" HorizontalAlignment="Stretch" Height="31" Canvas.Left="130" Canvas.Top="235" VerticalAlignment="Stretch" Width="72"/>
+            <TextBox x:Name="textBox3" Height="64" Canvas.Left="10" TextWrapping="Wrap" Text="For long are you wanting to workout during these days?" Canvas.Top="467" Width="340"/>
+            <Slider x:Name="timeSlider" Height="34" Canvas.Left="10" Canvas.Top="536" Width="340"/>
         </Canvas>
 
     </Grid>
